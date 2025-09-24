@@ -1,6 +1,8 @@
 {
   "name": "chocolate-server",
-  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {
     "ghcr.io/devcontainers/features/python:1": {}
   },
